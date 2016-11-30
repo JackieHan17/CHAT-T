@@ -1,0 +1,169 @@
+.card-wide.mdl-card{
+  width:512px;
+}
+.mdl-card {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sign-info {
+  color: #00BCD4;
+  font-size: 120%;
+}
+
+#user-info {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 216px;
+  box-sizing: border-box;
+}
+
+#user-pic {
+  padding: 0;
+  margin-top: 30px;
+  width: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+input(type="password") {
+  font:large;
+  font-size:150%;
+}
+
+.demo-avatar {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 256px;
+    max-height: 256px;
+    padding: 0px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+ul li {
+    font-family: Roboto;
+    /*font-size: 120%;*/
+    /*font-weight: 300;*/
+    /*margin-bottom: 10px;*/
+    line-height: 24px;
+}
+#card-chatroom ul{
+  list-style: none;
+  margin: 0px;
+  padding: 20px;
+  height: 420px;
+  overflow: auto;
+}
+#example-messages2 ul li {
+    font-family: Roboto;
+    font-size: 120%;
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+#card-chatroom ul li:last-child {
+    margin: 0px;
+}
+#card-chatroom ul .example-chat-username {
+    margin-right: 10px;
+}
+#card-chatroom footer{
+  margin-left: 20px;
+}
+.IDimg{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 5px 5px 5px 5px;
+}
+
+
+.js .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 80%;
+    font-size: 1.25rem;
+    /* 20px */
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    /* 10px 20px */
+}
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label * {
+    /* pointer-events: none; */
+    /* in case of FastClick lib use */
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+.inputfile-4 + label {
+    color: #FF4081;
+}
+
+.inputfile-4:focus + label,
+.inputfile-4.has-focus + label,
+.inputfile-4 + label:hover {
+    color: #FF93DF;
+}
+
+.inputfile-4 + label figure {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FF4081;
+    display: block;
+    padding: 20px;
+    margin: 0 auto 10px;
+}
+
+.inputfile-4:focus + label figure,
+.inputfile-4.has-focus + label figure,
+.inputfile-4 + label:hover figure {
+    background-color: #FF93DF;
+}
+
+.inputfile-4 + label svg {
+    width: 100%;
+    height: 100%;
+    fill: #f1e5e6;
+}
+.loc{
+  color:#FF4081;
+}
